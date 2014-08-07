@@ -12,4 +12,9 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+
+	function se367()
+	{
+		$this->load->view('se367');	
+	}
 }

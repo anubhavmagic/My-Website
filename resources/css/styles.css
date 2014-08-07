@@ -1,0 +1,19 @@
+body{
+	margin-bottom: 100px;
+}
+.homework-image{
+	width: 450px;
+}
+.services img {
+  width: auto;
+  height: 750px;
+  max-height: 750px;
+  text-align: center;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*.services{
+background-color: black;
+width:450px;
+}*/
