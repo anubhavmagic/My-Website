@@ -10,11 +10,23 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home');
+		$data['page']="home";
+		$this->load->view('header',$data);
+		$this->load->view('home',$data);
+		$this->load->view('footer',$data);
 	}
 
 	function se367()
 	{
-		$this->load->view('se367');	
+		$data['page']="";
+		$this->load->view('se367',$data);	
+	}
+
+	function resume()
+	{
+		$data['page']="resume";
+		$this->load->view('header',$data);
+		$this->load->view('resume',$data);
+		$this->load->view('footer',$data);
 	}
 }

@@ -1,0 +1,11 @@
+body{
+	margin-bottom: 100px;
+	background-color: rgba(60,60,60,1);
+}
+img{
+	width: 900px;
+	height: auto;
+}
+.navbar-inverse {
+    border-color: rgba(0,0,0,0);
+}
