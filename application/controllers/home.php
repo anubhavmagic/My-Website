@@ -29,4 +29,18 @@ class Home extends CI_Controller {
 		$this->load->view('resume',$data);
 		$this->load->view('footer',$data);
 	}
+	function projects()
+	{
+		$data['page']="projects";
+		$this->load->view('header',$data);
+		$this->load->view('projects',$data);
+		$this->load->view('footer',$data);
+	}
+	function aeromodelling()
+	{
+		$data['page']="aeromodelling";
+		$this->load->view('header',$data);
+		$this->load->view('aeromodelling',$data);
+		$this->load->view('footer',$data);
+	}
 }
